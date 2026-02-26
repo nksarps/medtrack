@@ -19,7 +19,7 @@ The report also evaluates the business impact of each issue and provides actiona
 Specialization: **Quality Assurance (QA)**  
 
 ## Contents
-- `data_quality_assessment_report.md` – Full detailed report including:
+- [Data Quality Assessment Report](./data_quality_assessment_report.md) – Full detailed report including:
   - Identification of data quality issues
   - Business impact assessment
   - Recommended solutions for critical issues
