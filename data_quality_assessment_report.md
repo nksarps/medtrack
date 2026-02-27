@@ -9,7 +9,7 @@ Specialization: *Quality Assurance*
 MedTrack Ghana is a health technology startup that relies on accurate, complete, and timely patient appointment data to manage operations, clinical care, and billing processes. Recent operational challenges have highlighted the consequences of poor data quality, including:  
 
 - Failure to send SMS reminders to patients, resulting in missed appointments.  
-- Duplicate patient counts in internal reporting, leading to inaccurate analytics.  
+- Duplicate patient counts, leading to inaccurate analytics.  
 - Billing discrepancies and failed payment processing, causing revenue loss.  
 
 This report provides a comprehensive assessment of a sample dataset containing 50 patient appointment records. It identifies data quality issues based on established dimensions—**accuracy, completeness, consistency, timeliness, validity, and uniqueness**—evaluates the operational and business impact, and presents actionable recommendations to resolve critical problems.
