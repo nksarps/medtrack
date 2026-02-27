@@ -114,16 +114,16 @@ The following section presents violations identified for each data quality dimen
 
 ## 3. Task 2: Business Impact Assessment  
 
-The following table summarizes the operational consequences of each data quality issue:
+The table below explains how each identified data quality issue directly causes operational, clinical, or financial problems within MedTrack Ghana.
 
-| Data Quality Issue | Operational Problem | Affected Business Function |
-|------------------|-------------------|---------------------------|
-| Inaccurate phone numbers | Failed SMS reminders, missed appointments | Operations |
-| Missing patient name | Patient identification errors, mismanaged appointments | Clinical |
-| Inconsistent doctor names | Incorrect reports, misallocation of appointments | Clinical |
-| Mixed date formats | Scheduling errors, misdirected reminders | Operations |
-| Invalid payment status | Failed or delayed billing automation | Finance |
-| Duplicate PatientIDs | Inflated reports, double billing, operational confusion | Finance |
+| Data Quality Issue | Why It Causes Operational Problems | Most Affected Business Function |
+|-------------------|------------------------------------|---------------------------------|
+| Inaccurate phone numbers | When phone numbers are incorrect or incomplete, SMS reminders cannot be delivered successfully. As a result, patients may miss appointments, leading to wasted time slots, reduced clinic efficiency, and lost revenue opportunities. | Operations |
+| Missing patient name | Without a patient name, clinical staff cannot reliably identify individuals during check-in or treatment. This increases the risk of patient misidentification, delays in service, and potential clinical errors. | Clinical |
+| Inconsistent doctor names | When doctor names are formatted differently (e.g., capitalization differences), reporting systems may treat them as separate individuals. This results in inaccurate performance reports and misallocation of clinical workload. | Clinical |
+| Mixed date formats | Ambiguous or inconsistent date formats may cause the system to misinterpret appointment dates. This can lead to reminders being sent on the wrong day or appointments being scheduled incorrectly, disrupting daily operations. | Operations |
+| Invalid payment status | If payment status values do not match predefined system rules, automated billing workflows may fail. This leads to delayed reconciliation, incorrect financial reports, and increased manual intervention by finance staff. | Finance |
+| Duplicate PatientIDs | Duplicate patient records can inflate patient counts and cause multiple invoices to be generated for the same individual. This creates financial discrepancies, damages patient trust, and distorts reporting metrics. | Finance |
 
 
 ## 4. Task 3: Recommended Solutions (Top 3 Critical Issues)  
